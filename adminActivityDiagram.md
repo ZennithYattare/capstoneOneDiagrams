@@ -3,7 +3,7 @@ flowchart TD
     A([Homepage]) --> B[/Display login page/]
     B --> C[/Input username and password/]
     C --> D{Correct login credentials?}
-    D --> |Yes| E[Login]
+    D --> |Yes| E([Login])
     D --> |No| F[Display error prompt]
     F --> B
     B --> G{Forgot password}
